@@ -16,7 +16,7 @@ describe("Home", () => {
   });
 });
 
-describe('Test insulin delivery status UI on Android @tests:KT-66', () => {
+describe('Test insulin delivery status UI on Android @tests:MR-68', () => {
   it('Transition state and keep status', () => {
     render(<Home />)
 
@@ -29,7 +29,7 @@ describe('Test insulin delivery status UI on Android @tests:KT-66', () => {
 })
 
 
-describe('Test insulin delivery status UI on iOS @tests:KT-68', () => {
+describe('Test insulin delivery status UI on iOS @tests:MR-70', () => {
   it('Transition state and keep status', () => {
     render(<Home />)
 
@@ -41,7 +41,7 @@ describe('Test insulin delivery status UI on iOS @tests:KT-68', () => {
   })
 })
 
-describe('Unit test for iOS Client @tests:KT-2', () => {
+describe('Unit test for iOS Client @tests:MR-4', () => {
   it('renders the best heading', () => {
     render(<Home />)
 
@@ -65,7 +65,7 @@ describe('Unit test for iOS Client @tests:KT-2', () => {
 //   })
 // })
 
-describe('Unit test for record keeping @tests:KT-98', () => {
+describe('Unit test for record keeping @tests:MR-100', () => {
   it('Verify create and archive record feature', () => {
     render(<Home />)
 
@@ -78,7 +78,7 @@ describe('Unit test for record keeping @tests:KT-98', () => {
 })
 
 
-describe('Unit test feedback forms @tests:KT-30', () => {
+describe('Unit test feedback forms @tests:MR-74', () => {
   it('Verify form submission', () => {
     render(<Home />)
 
@@ -90,26 +90,26 @@ describe('Unit test feedback forms @tests:KT-30', () => {
   })
 })
 
-describe('Unit test feedback forms @tests:KT-14', () => {
-  it('Verify form submission', () => {
-    render(<Home />)
+// describe('Unit test feedback forms @tests:KT-14', () => {
+//   it('Verify form submission', () => {
+//     render(<Home />)
 
-    const heading = screen.getByRole("heading", {
-      name: /welcome to next\.js!/i,
-    });
+//     const heading = screen.getByRole("heading", {
+//       name: /welcome to next\.js!/i,
+//     });
 
-    expect(heading).toBeInTheDocument()
-  })
-})
+//     expect(heading).toBeInTheDocument()
+//   })
+// })
 
-describe('Unit test feedback forms @tests:KT-3', () => {
-  it('Verify form submission', () => {
-    render(<Home />)
+// describe('Unit test feedback forms @tests:KT-3', () => {
+//   it('Verify form submission', () => {
+//     render(<Home />)
 
-    const heading = screen.getByRole("heading", {
-      name: /welcome to next\.js!/i,
-    });
+//     const heading = screen.getByRole("heading", {
+//       name: /welcome to next\.js!/i,
+//     });
 
-    expect(heading).toBeInTheDocument()
-  })
-})
+//     expect(heading).toBeInTheDocument()
+//   })
+// })
