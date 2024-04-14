@@ -5,6 +5,7 @@
  *
  * @itemId:spec-dose-reading-warning
  * @itemHasParent:MR-97
+ * @itemFulfills: MR-22
  * @itemTitle:"Check warning threshold"
  *
  */
