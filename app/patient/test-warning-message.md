@@ -1,7 +1,7 @@
 ---
 itemId: tc-3
 itemType: Test Case
-itemTests: spec-dose-reading-warning
+itemTests: reading-warning
 ---
 
 # Test warning message
